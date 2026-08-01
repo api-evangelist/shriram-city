@@ -1,8 +1,25 @@
 aid: shriram-city
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shriram-city.png
 name: Shriram City
-description: 'Shriram City is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Shriram City (Shriram City Union Finance Ltd) was a leading Indian non-banking
+  financial company (NBFC) in the Shriram Group, offering personal, business, two-wheeler,
+  gold and small-enterprise loans plus fixed deposits. Founded 1986 in Chennai, it was
+  surfaced as a portfolio company of bessemer-venture-partners. In November 2022 the
+  company was amalgamated into Shriram Finance Ltd; its www.shriramcity.in host no longer
+  resolves and the shriramcity.in apex now redirects to shriramfinance.in. No public
+  developer or API program was found. This profile was enriched by the API Evangelist
+  pipeline: web search + live domain/security/well-known probes.'
 url: https://raw.githubusercontent.com/api-evangelist/shriram-city/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,18 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: merged-into-shriram-finance
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- NBFC
+- Lending
+- Consumer Finance
+- Financial Services
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shriram-city-domain-security.yml
 - type: Website
-  url: https://www.shriramcity.in/
+  url: https://shriramcity.in/
+- type: Successor
+  url: https://shriramfinance.in/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
