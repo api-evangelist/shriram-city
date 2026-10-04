@@ -50,7 +50,7 @@ tags:
 - NBFC
 - Lending
 - Consumer Finance
-- Financial-Services
+- Financial Services
 - India
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Consumer Finance
 - Financial Services
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
